@@ -27,7 +27,7 @@ p {
 
 /* Header */
 .header_img {
-  max-width: 512px;
+  width: 100%;
 }
 
 .megaphone_discord {
@@ -81,26 +81,16 @@ p {
   position: relative;
 }
 
-/* .demo_img {
-  max-width: 280px;
-  border-radius: 1.2rem;
-} */
-
 .video_card {
   max-width: 100%;
   border-radius: 25px;
 }
 
+/* Aggiunta di position abslute insieme a position relative asseganto al box in modo tale da poter muovere l'oggetto all'interno del box e non del file html, asseganta posizione in pixel di top perche' gia' conosciuta la dimensione dell'icona mentre utilizzato translate per posizionare al dettaglio l'icona al centro  */
 .discord_icons {
   position: absolute;
   width: 70px;
   top: -35px;
-  left: 30px;
+  left: 50%;
+  translate: -50% 0px;
 }
-
-/* .discord_icons {
-  width: 70px;
-  top: 50%;
-  left: 0%;
-  translate: -50%, -50%;
-} */
