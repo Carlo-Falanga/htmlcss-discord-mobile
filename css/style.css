@@ -30,9 +30,13 @@ p {
   max-width: 512px;
 }
 
+.megaphone_discord {
+  width: 100px;
+}
+
 /* Main */
 #app_main {
-  padding-top: 72px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -52,7 +56,7 @@ p {
   width: 300px;
   height: 45px;
   border-style: none;
-  border-radius: 0.8em;
+  border-radius: 0.8rem;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   color: #000;
@@ -77,9 +81,14 @@ p {
   position: relative;
 }
 
-.demo_img {
+/* .demo_img {
   max-width: 280px;
-  border-radius: 1.2em;
+  border-radius: 1.2rem;
+} */
+
+.video_card {
+  max-width: 100%;
+  border-radius: 25px;
 }
 
 .discord_icons {
@@ -88,3 +97,10 @@ p {
   top: -35px;
   left: 30px;
 }
+
+/* .discord_icons {
+  width: 70px;
+  top: 50%;
+  left: 0%;
+  translate: -50%, -50%;
+} */
