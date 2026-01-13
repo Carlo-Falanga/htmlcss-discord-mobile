@@ -76,7 +76,7 @@ p {
   border: none black;
   border-radius: 25px;
   color: #5d65d1;
-  background-color: #5d65d1;
+  background-image: linear-gradient(to right, #6f5fff, #feb47b);
   max-width: 300px;
   position: relative;
 }
